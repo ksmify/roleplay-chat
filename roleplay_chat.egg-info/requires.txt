@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+PyYAML
+openai>=1.40.0
+sqlalchemy>=2.0.0
+
+[dev]
+httpx<0.29.0,>=0.28.1
+pytest<10.0,>=9.1.1
+pytest-asyncio<2.0,>=1.4.0
